@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weather-web">
+      <div class="container">
+        <div class="search">
+          <input id="searchCity" type="text" />
+          <button id="searchButton">Search</button>
+        </div>
+        <div class="weather-info">
+          <h2 id="cityName" class="city">City Name</h2>
+          <h1 id="temperature" class="temp">0°C</h1>
+          <h3 id="description" class="desc">Clear Sky</h3>
+          <div class="details">
+            <div class="detail-item">
+              <span class="label">Humidity:</span>
+              <span id="humidity" class="value">0%</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Wind Speed:</span>
+              <span id="windSpeed" class="value">0 km/h</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
